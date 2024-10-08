@@ -1,0 +1,80 @@
+
+@media only screen and (max-width:768px) {
+    .navbarnav a{
+        display: none;
+    }
+    .header {
+        width: 100%;
+        height: 100%;
+      }
+    .banner {
+        padding: 4rem 0;
+        display: grid;
+        grid-template-columns: 100%;
+        gap: 3rem;
+    }
+    .header{
+
+        .banner p{
+            width: 40%;
+        }
+    }
+    .header{
+
+        .banner h2{
+           font-size: 2rem;
+        }
+    }
+
+   .company__content{
+    display: grid;
+    grid-template-columns:  repeat(1,1fr);
+    gap: 2rem;
+
+   }
+
+   
+   .we__content .item{
+    display: grid;
+    grid-template-columns:  repeat(1,1fr);
+    gap: 2rem;
+   }
+   .security{
+
+       .security__content{
+           .item__group{
+               display: grid;
+               grid-template-columns:  repeat(1,1fr);
+               gap: 2rem;
+            }
+        }
+    }
+        
+    .succes{
+
+        .succes__content{
+            display: grid;
+            grid-template-columns:  repeat(1,1fr);
+            gap: 2rem;
+        }
+    }
+
+   .map__content{
+    display: grid;
+    grid-template-columns:  repeat(1,1fr);
+    gap: 2rem;
+   }
+
+   .adres{
+ .adres__content{
+    display: grid;
+    grid-template-columns: repeat(1,1fr);
+    gap: 3rem;
+ }
+   }
+
+   .footer{
+    font-size: 0.9rem;
+   }
+}
+

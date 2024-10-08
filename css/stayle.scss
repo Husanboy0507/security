@@ -65,7 +65,6 @@ img {
         padding: 4rem 0;
         align-items: center;
         text-align:left;
-    //  margin-top: 10%;
      margin-left: 7%;
 
         p{
@@ -261,6 +260,7 @@ img {
         box-shadow: 3px 1px 7px 4px rgba(36, 36, 36, 0.8);
 
         .item{
+            margin-left: 1rem;
             a{
                 font-size: 2.2rem;
                 font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
@@ -403,60 +403,4 @@ img {
     color: rgb(255, 255, 255);
   }
 
-
-
-  @media only screen and (max-width:768px) {
-    .navbarnav a{
-        display: none;
-    }
-    .header {
-        width: 100%;
-        height: 100%;
-      }
-    .banner {
-        padding: 4rem 0;
-        display: grid;
-        grid-template-columns: 100%;
-        gap: 3rem;
-    }
-    .banner p{
-        width: 40%;
-    }
-   .company__content{
-    display: grid;
-    grid-template-columns:  repeat(1,1fr);
-    gap: 2rem;
-
-   }
-   .we__content .item{
-    display: grid;
-    grid-template-columns:  repeat(1,1fr);
-    gap: 2rem;
-   }
-   .item__group{
-    display: grid;
-    grid-template-columns:  repeat(1,1fr);
-    gap: 2rem;
-   }
-   .succes__content{
-    display: grid;
-    grid-template-columns:  repeat(1,1fr);
-    gap: 2rem;
-   }
-   .map__content{
-    display: grid;
-    grid-template-columns:  repeat(1,1fr);
-    gap: 2rem;
-   }
- .adres__content{
-    display: grid;
-    grid-template-columns: repeat(1,1fr);
-    gap: 3rem;
- }
-
-
-   .footer{
-    font-size: 0.9rem;
-   }
-}
 
